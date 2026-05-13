@@ -273,9 +273,7 @@ function ProductTransformation() {
     <section className="bg-white px-5 py-28 sm:px-8 lg:px-10">
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto mb-16 max-w-4xl text-center">
-          <h2 className="text-6xl font-black leading-tight tracking-tight text-[#111111] sm:text-7xl lg:text-8xl">
-            Raw video becomes usable performance data
-          </h2>
+          <<h2 className="text-4xl font-black leading-tight tracking-tight text-[#111111] sm:text-5xl lg:text-5xl">
         </div>
         <div className="grid gap-5 lg:grid-cols-3">
           <TransformationPanel
@@ -380,15 +378,15 @@ function MultiSportEngine() {
     <section id="sports" className="bg-white px-5 py-28 sm:px-8 lg:px-10">
       <div className="mx-auto max-w-7xl">
 
-        <h2 className="mb-8 text-7xl font-black leading-[0.95] tracking-tight text-[#111111] sm:text-8xl lg:text-[9rem]">
-          One engine.
-          <br />
-          Many sports.
-        </h2>
-        <p className="mb-12 max-w-4xl text-2xl leading-10 text-black/58 sm:text-3xl">
-          Our system focuses on universal performance patterns like posture, timing, balance, speed, acceleration,
-          repetition quality, and movement efficiency
-        </p>
+        <h2 className="mb-8 text-5xl font-black leading-[0.95] tracking-tight text-[#111111] sm:text-6xl lg:text-7xl">
+  One engine
+  <br />
+  Many sports
+</h2>
+<p className="mb-12 max-w-4xl text-xl leading-8 text-black/58 sm:text-2xl sm:leading-9">
+  Our system focuses on universal performance patterns like posture, timing, balance, speed, acceleration,
+  repetition quality, and movement efficiency
+</p>
         <div className="flex flex-wrap gap-4">
           {sports.map((sport) => (
             <span key={sport} className="rounded-full border border-black/10 bg-[#f7f7f8] px-7 py-3.5 text-xl font-bold text-black/70">
@@ -595,7 +593,7 @@ export default function App() {
       <section className="bg-white">
         <ContainerScroll
           titleComponent={
-            <div className="mx-auto max-w-4xl px-6">
+            <div className="mx-auto max-w-3xl px-6">
               <p className="mb-4 text-sm font-black uppercase tracking-[0.22em] text-[#ff5a1f]">Live analysis layer</p>
               <h2 className="text-4xl font-black leading-tight text-black md:text-[5.5rem]">
                 One clip turns into a full performance view
