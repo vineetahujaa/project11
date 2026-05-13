@@ -186,13 +186,13 @@ function Hero() {
           Multi-sport AI analytics
         </p>
 
-        <h1 className="max-w-5xl text-5xl font-black leading-[1.02] tracking-tight text-white drop-shadow-2xl sm:text-7xl lg:text-[5.8rem]">
-          Turn any sports video into performance intelligence
-        </h1>
+        <h1 className="max-w-4xl text-4xl font-black leading-[1.04] tracking-tight text-white drop-shadow-2xl sm:text-6xl lg:text-[4.8rem]">
+  Turn any sports video into performance intelligence
+</h1>
 
-        <p className="mt-7 max-w-3xl text-lg font-semibold leading-8 text-white drop-shadow-lg sm:text-xl">
-          AI-powered motion analysis for athletes, coaches, academies, and scouts
-        </p>
+<p className="mt-6 max-w-2xl text-base font-semibold leading-7 text-white drop-shadow-lg sm:text-lg">
+  AI-powered motion analysis for athletes, coaches, academies, and scouts
+</p>
 
         <div className="mt-12 flex flex-wrap gap-5">
           <a
